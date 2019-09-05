@@ -61,8 +61,8 @@ export const App = props => {
 
   return (
     <div className="App">
-      <label for="teamSearch">
-        Search by team:&nbsp;
+      <label htmlFor="teamSearch">
+        Filter by team:&nbsp;
         <input
           type="text"
           name="teamSearch"
